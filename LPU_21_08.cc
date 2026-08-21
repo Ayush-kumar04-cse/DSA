@@ -1,4 +1,4 @@
-# include <iostream>
+# include <stdio.h>
 
 void print_arr(int arr[],int n)
 {
@@ -40,11 +40,7 @@ int main()
     printf("\n");
     printf("Array size : %d",n);
     return 0;
-
-    
-    
-
-    
+ 
 
 }
    
