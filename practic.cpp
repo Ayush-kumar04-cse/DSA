@@ -14,7 +14,11 @@ int main()
 {
     int a = 10;
     fn1(a);
-    cout<<a<<endl;
+    cout<<a;
+
+    
+    cout<<"\n";
+
 
     fn2(a);
     cout<<a;

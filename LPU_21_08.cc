@@ -40,7 +40,5 @@ int main()
     printf("\n");
     printf("Array size : %d",n);
     return 0;
- 
-
 }
    
