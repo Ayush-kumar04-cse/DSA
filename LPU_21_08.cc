@@ -25,16 +25,20 @@ int main()
     int n = 5;
     for (int i = 0;i <n;i++)
     {
-         printf("Enter the %d array element: ",i);
+         printf("Enter the %d array element: ",i+1);
         scanf("%d",&arr[i]);
     }
     printf("Array : ");
     print_arr(arr,n);
     printf("\n");
+    printf("Array size : %d",n);
+    printf("\n");
     int pos = 2,key = 12;
     insert_key(arr,n,pos,key);
     printf("Array : ");
     print_arr(arr,n);
+    printf("\n");
+    printf("Array size : %d",n);
     return 0;
 
     
