@@ -6,7 +6,8 @@ void print_arr(int arr[],int n)
     {
         printf(" %d ",arr[i]);
     }
-}
+} 
+
 
 void insert_key(int arr[],int &n,int pos,int key)
 {
@@ -41,4 +42,3 @@ int main()
     printf("Array size : %d",n);
     return 0;
 }
-   
