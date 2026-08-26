@@ -64,7 +64,7 @@ int main()
 
 
 
-/* bubble sort code  */
+/* bubble sort code   normal way */
 
 
 
