@@ -1,49 +1,28 @@
-/*  selection sort */
-// # include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int arr[10] = {12,2,45,5566,23};
-//     int n = 5;
 
-//     int flag = 0;
-//     for (int i = 1 ;i <n;i++)
-//     {
-//         if (arr[i] < arr[flag])
-//         {   
-//             flag = i;
+# include <iostream>
+using namespace std;
+int main()
+{
+    int arr[10] = {12,2,45,5566,23};
+    int n = 5;
 
-//         } 
-//     }
-//     cout<<flag;
+    int flag = 0;
+    for (int i = 1 ;i <n;i++)
+    {
+        if (arr[i] < arr[flag])
+        {   
+            flag = i;
+
+        } 
+    }
+    swap(arr[0], arr[flag]);
+    for (int i = 0;i<n;i++)
+    {
+        cout<<arr[i];
+    }
     
-//     return 0;
-// }
-
-// # include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int arr[10] = {12,2,45,5566,23};
-//     int n = 5;
-
-//     int flag = 0;
-//     for (int i = 1 ;i <n;i++)
-//     {
-//         if (arr[i] < arr[flag])
-//         {   
-//             flag = i;
-
-//         } 
-//     }
-//     swap(arr[0], arr[flag]);
-//     for (int i = 0;i<n;i++)
-//     {
-//         cout<<arr[i];
-//     }
-    
-//     return 0;
-// }
+    return 0;
+}
 
 
 # include <iostream>
