@@ -1,4 +1,4 @@
-/*  fint the smallest element index */
+/*  selection sort */
 // # include <iostream>
 // using namespace std;
 // int main()
